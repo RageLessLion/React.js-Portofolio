@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "project-mayhem",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,10 +12,15 @@
   "dependencies": {
     "@react-three/drei": "^9.99.0",
     "@react-three/fiber": "^8.15.16",
+    "@react-three/postprocessing": "^2.16.0",
     "@types/three": "^0.161.2",
+    "autoprefixer": "^10.4.17",
     "composer": "^4.1.0",
+    "jotai": "^2.6.4",
+    "postcss": "^8.4.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
     "three": "^0.161.0"
   },
   "devDependencies": {
@@ -26,6 +31,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "tailwindcss": "^3.4.1",
     "vite": "^5.1.0"
   }
 }
